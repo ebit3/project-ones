@@ -34,19 +34,23 @@
                         <div class="card-body">
                             <form action="" method="post">
                                 <div class="mb-3">
-                                    <label for="" class="form-label">username</label>
-                                    <input type="text" name="username" id="" class="form-control" required>
+                                    <label for="" class="form-label">Nama</label>
+                                    <input type="text" name="nama" id="" class="form-control" required>
                                 </div>
                                 <div class="mb-3">
                                     <label for="" class="form-label">username</label>
                                     <input type="text" name="username" id="" class="form-control" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="" class="form-label">Password</label>
+                                    <input type="password" name="password" id="" class="form-control" required>
                                 </div>
 
                                 <div class="d-grid">
                                     <button class="btn btn-primary" type="submit" name="submit">Sing In</button>
 
                                     <div class="d-block text-center mt-2">
-                                        <small class="text-muted">already for sing In please <span><a href="register.php">Sing Up</a></span></small>
+                                        <small class="text-muted">already for sing In please <span><a href="index.php">Sing Up</a></span></small>
                                     </div>
                                 </div>
                             </form>
